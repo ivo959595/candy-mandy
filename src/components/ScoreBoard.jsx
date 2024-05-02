@@ -4,9 +4,7 @@ function ScoreBoard({ score }) {
   return (
     <div className="scoreBoard">
 
-      <h1 className="heading">Candy-Mandy</h1>
-
-      <h2 className="score"> Score : {score} </h2>
+      <h2 className="score"> Candy-Mandy Score : {score} </h2>
 
     </div>
   );
