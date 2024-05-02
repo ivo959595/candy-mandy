@@ -3,7 +3,10 @@ import React from "react";
 function ScoreBoard({ score }) {
   return (
     <div className="scoreBoard">
-      <h1 className="heading"> Score {score} </h1>
+
+      <h1 className="heading">Candy-Mandy</h1>
+
+      <h2 className="score"> Score : {score} </h2>
 
     </div>
   );

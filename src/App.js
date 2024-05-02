@@ -157,9 +157,6 @@ function App() {
 
 
 
-
-
-
   const createBoard = () => {
     const randomColorArrangement = [];
 
@@ -196,8 +193,14 @@ function App() {
 
   return (
     <div className="App">
+    
+    <div className="boreScoard">
+      <ScoreBoard score={scoreDisplay}/>
+      </div>
+      
       <div className="game">
         {currentColorArrangement.map((candyColor, index) => (
+          <div className="image-container">
           <img
             key={index}
             src={candyColor}
@@ -211,16 +214,14 @@ function App() {
             onDrop={dragDrop}
             onDragEnd={dragEnd}
           />
+          </div>
         ))}
       </div>
 
-      <div className="boreScoard">
-      <ScoreBoard score={scoreDisplay}/>
-      </div>
-
-      
-
+     
     </div>
+
+
   );
 }
 
