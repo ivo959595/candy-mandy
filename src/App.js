@@ -9,7 +9,7 @@ import redCandy from './img/red-candy.png'
 import yellowCandy from './img/yellow-candy.png'
 import blank from './img/blank.png'
 
-
+import Reset from "./components/Reset.jsx";
 
 const width = 8;
 const candyColors = [blueCandy, greenCandy, orangeCandy , purpleCandy, redCandy, yellowCandy];
@@ -155,7 +155,11 @@ function App() {
       }
   }
 
+const reset = () =>{
+  createBoard()
+  setScoreDisplay(0)
 
+}
 
   const createBoard = () => {
     const randomColorArrangement = [];
@@ -193,11 +197,11 @@ function App() {
 
   return (
     <div className="App">
-    
     <div className="boreScoard">
       <ScoreBoard score={scoreDisplay}/>
-      </div>
-      
+      <Reset reset={reset}/>
+    </div>
+
       <div className="game">
         {currentColorArrangement.map((candyColor, index) => (
           <div className="image-container">
