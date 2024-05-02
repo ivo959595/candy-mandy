@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/candy-mandy/static/css/main.b79792af.css",
+    "main.css": "/candy-mandy/static/css/main.d8786058.css",
     "main.js": "/candy-mandy/static/js/main.a84bc558.js",
     "static/media/pink-brick-wall.jpg": "/candy-mandy/static/media/pink-brick-wall.2292848969332f4db86b.jpg",
     "static/media/purple-candy.png": "/candy-mandy/static/media/purple-candy.ae25b8a55e061a50346f.png",
@@ -11,11 +11,11 @@
     "static/media/green-candy.png": "/candy-mandy/static/media/green-candy.599f70161bdb3cadac66.png",
     "static/media/blank.png": "/candy-mandy/static/media/blank.fbcb91799ceba75b2e3a.png",
     "index.html": "/candy-mandy/index.html",
-    "main.b79792af.css.map": "/candy-mandy/static/css/main.b79792af.css.map",
+    "main.d8786058.css.map": "/candy-mandy/static/css/main.d8786058.css.map",
     "main.a84bc558.js.map": "/candy-mandy/static/js/main.a84bc558.js.map"
   },
   "entrypoints": [
-    "static/css/main.b79792af.css",
+    "static/css/main.d8786058.css",
     "static/js/main.a84bc558.js"
   ]
 }
