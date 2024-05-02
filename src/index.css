@@ -40,7 +40,7 @@ body {
 }
 
 .game .image-container {
-  flex: 0 0 calc(18.5% - 20px); 
+  flex: 0 0 calc(18.5% - 18px); 
   max-width: calc(15.5% - 18px); 
 }
 
@@ -81,17 +81,23 @@ body {
 
 @media screen and (min-width: 420px) and (max-width: 660px) {
   .game {
-    width: 80%; 
-    height: auto; 
+   width: 360px;
+   height: 360px;
   }
 
   .scoreBoard .heading {
-    font-size: 20px; 
+    font-size: 18px; 
   }
   
   .scoreBoard .score {
-    font-size: 20px; 
-    width: 90%; 
+    font-size: 18px; 
+    width: 30; 
     height: auto; 
   }
+
+  .game .image-container {
+    flex: 0 0 calc(18.5% - 18px); 
+    max-width: calc(15.5% - 14px); 
+  }
+  
 }
